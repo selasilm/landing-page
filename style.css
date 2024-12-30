@@ -1,5 +1,6 @@
 *{
     font-family: Roboto;
+    box-sizing: border-box;
 }
 
 ul{
@@ -20,6 +21,8 @@ p{
 .bg1{
     background-color: #1F2937;
     color:white;
+    flex-wrap: wrap;
+    
 }
 #header{
     align-items: center;
