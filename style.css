@@ -22,7 +22,12 @@ p{
     background-color: #1F2937;
     color:white;
     flex-wrap: wrap;
-    
+    padding-bottom:100px;
+}
+#header>div{
+    width:35%;
+    justify-content: space-around;
+    align-items: center;
 }
 #header{
     align-items: center;
@@ -31,11 +36,6 @@ p{
 
 #header ul{
     gap:8px;
-}
-#hero{
-    align-items: center;
-    justify-content: center;
-    padding-bottom: 80px;
 }
 .flex-container.vert{
     flex-direction:column;
@@ -49,7 +49,6 @@ p{
 .subinfo{
     justify-content: space-around;
     align-items: center;
-    padding:0 550px;
 }
 .emptybox{
     border: 2px solid #3882F6;
@@ -59,7 +58,7 @@ p{
 }
 #placeholder{
     background-color: grey;
-    padding: 120px 100px;
+    padding:120px 100px;
 }
 #welcome-text{
     width:550px;
@@ -79,4 +78,29 @@ a:link{
 }
 a:hover{
     text-decoration: underline;
+}
+h2{
+    margin-bottom:30px;
+}
+#quote{
+    flex-direction:column;
+    height:400px;
+    background-color:#E5E7EB;
+    color:#1F2937;
+    font-family: 'Roboto';
+    font-weight:lighter;
+    font-style:italic;
+    font-size: 36px;
+    justify-content: center;
+    align-items: center;
+}
+#quote .flex-item{
+    width:70%;
+    background-color: magenta;
+}
+#quote p{
+    color:#1F2937;
+    text-align:right;
+    font-weight:normal;
+    font-style:normal;
 }
