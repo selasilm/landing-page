@@ -32,6 +32,7 @@ p{
     align-items: center;
 }
 #header{
+    margin-top:0;
     align-items: center;
     justify-content: space-around;
 }
@@ -64,10 +65,13 @@ p{
     width:150px;
     height:150px;
 }
-#placeholder{
-    background-color: grey;
-    padding:120px 100px;
-}
+.flex-subcontainer{
+    display:flex;
+    background-color: gray;
+    width: 200px;
+    height:200px;
+    align-items: center;
+}   
 #welcome-text{
     width:550px;
     height:auto;
