@@ -17,6 +17,8 @@ p{
 }
 .flex-container{
     display:flex;
+    width:100%;
+    margin:40px 0;
 }
 .bg1{
     background-color: #1F2937;
@@ -35,20 +37,26 @@ p{
 }
 
 #header ul{
-    gap:8px;
+    gap:16px;
 }
 .flex-container.vert{
     flex-direction:column;
 }
 #info{
-    text-align: center;    
+    text-align: center; 
+    align-items: center;  
 }
 .box{
     width:150px;
 }
+.box p{
+    color:darkslategray;
+}
 .subinfo{
     justify-content: space-around;
     align-items: center;
+    width:70%;
+    margin-top: 0;
 }
 .emptybox{
     border: 2px solid #3882F6;
@@ -93,14 +101,37 @@ h2{
     font-size: 36px;
     justify-content: center;
     align-items: center;
+    padding: 60px 0;
 }
 #quote .flex-item{
     width:70%;
-    background-color: plum;
+    min-width:60%;
 }
 #quote p{
     color:#1F2937;
     text-align:right;
     font-weight:normal;
     font-style:normal;
+}
+#call{
+    margin:auto;
+    color:white;
+    padding:10px;
+    width:80%;
+    border-radius: 5px;
+    background-color: #3882F6;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+.white-btn{
+    border: 2px solid white;
+}
+.footer{
+    color: white;
+    background-color: #1F2937;
+    margin:80px 0 0;
+    align-items: center;
+    justify-content: center;
+    padding: 25px;
 }
